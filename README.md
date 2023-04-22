@@ -18,7 +18,14 @@ An in-depth paragraph about your project and overview of use.
 * How to run the program
 * Step-by-step bullets
 ```
-code blocks for commands
+pragma solidity ^0.8.4;
+
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello World!";
+    }
+}
+
 ```
 
 ## Help
