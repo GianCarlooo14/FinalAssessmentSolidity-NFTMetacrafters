@@ -1,10 +1,10 @@
 # FinalAssessmentSolidity-NFTMetacrafters
 
-Simple overview of use/purpose.
+This is a Solidity program where a simple implementation of a token contract called NFTMetacrafters. The purpose of this contract is to allow us to create new tokens, which can be minted and burned as needed.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This Solidity contract is a basic implementation of a token contract called NFTMetacrafters. It allows the creation and destruction of tokens through the mint and burn functions. The contract can be used as a starting point for creating and managing tokens on the Ethereum blockchain.
 
 ## Getting Started
 
