@@ -17,14 +17,32 @@ An in-depth paragraph about your project and overview of use.
 
 * How to run the program
 * Step-by-step bullets
-```
-pragma solidity ^0.8.4;
+```Solidity
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
 
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello World!";
+contract MyToken {
+
+
+    string public tokenName = "GianCarlooo";
+    string public tokenAbbrv = "GC";
+    uint public totalSupply = 0; 
+
+    mapping(address => uint) public balances;
+
+    function mint (address _address, uint _value) public {
+        totalSupply += _value;
+        balances[_address] += _value;
+    }
+
+    function burn (address _address, uint _value) public {
+        if (balances[_address] >= _value) {
+            totalSupply -= _value;
+            balances[_address] -= _value;
+        }
     }
 }
+
 
 ```
 
