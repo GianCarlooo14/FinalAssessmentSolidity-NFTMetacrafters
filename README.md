@@ -17,7 +17,7 @@ An in-depth paragraph about your project and overview of use.
 
 * How to run the program
 * Step-by-step bullets
-```
+```Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
@@ -49,7 +49,9 @@ contract NFTMetacrafters {
 ## Authors
 
 Gian Carlo R. Dumana
+
 BSIT 2.5
+
 8213650@ntc.edu.ph
 
 ## License
