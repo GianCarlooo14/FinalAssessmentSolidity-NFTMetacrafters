@@ -40,10 +40,12 @@ contract NFTMetacrafters {
 
 
 ```
-### Executing program
 
-* How to run the program
-* Step-by-step bullets
+* Click the "Solidity Compiler" tab in the left-hand sidebar to compile the code. Click the "Compile NFTMetacrafters.sol" button or just press "Ctrl + S" to compile the file. Also make sure that the compiler is set to "0.8.18"
+* After compiling the code, by selecting the "Deploy & Run Transactions" tab in the left-hand sidebar, we can now deploy the contract. Click the "Deploy" button after selecting the "NFTMetacrafters" contract from the menu.
+* Once it is deployed, we can now interact with our code in the "Deployed Contracts". Click on the "NFTMetacrafter" deployed contract, and then we can now call the the tokenName, tokenAbbrv, and totalSupply.
+* For us to have a value in the totalSupply, we will going to call our function "mint". In that function we need to put an address and the value you want to put. To get an address we are going to use what Remix provide to us. After that put any amount or value you want to put.
+* Same in the function "burn". We only need the address and then put the value you want to burn in our token. It also applies to the balances, all we need to enter is our address we use in "mint" and "burn" function.
 
 ## Authors
 
