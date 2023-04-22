@@ -17,11 +17,11 @@ An in-depth paragraph about your project and overview of use.
 
 * How to run the program
 * Step-by-step bullets
-```Solidity
+```
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
-contract MyToken {
+contract NFTMetacrafters {
 
 
     string public tokenName = "GianCarlooo";
@@ -48,12 +48,10 @@ contract MyToken {
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+Gian Carlo R. Dumana
+BSIT 2.5
+8213650@ntc.edu.ph
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the LICENSE.md file for details
