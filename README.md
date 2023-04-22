@@ -8,15 +8,10 @@ This Solidity contract is a basic implementation of a token contract called NFTM
 
 ## Getting Started
 
-### Installing
+To run this program, we are going to use Remix, it is an online Solidity IDE. Just go to the Remix website at https://remix.ethereum.org/.
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Once you are on the Remix website, click on the file explorer and create a new file. Save the file with a .sol extension, you can name the file any name you want.Copy and paste the following code into the file:
 
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
 ```Solidity
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
@@ -45,6 +40,10 @@ contract NFTMetacrafters {
 
 
 ```
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
 
 ## Authors
 
