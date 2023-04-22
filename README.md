@@ -10,7 +10,7 @@ This Solidity contract is a basic implementation of a token contract called "Sol
 
 To run this program, we are going to use Remix, it is an online Solidity IDE. Just go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, click on the file explorer and create a new file. Save the file with a .sol extension, you can name the file any name you want.Copy and paste the following code into the file:
+Once you are on the Remix website, click on the file explorer and create a new file. Save the file with a .sol extension, you can name the file any name you want. Copy and paste the following code into the file:
 
 ```Solidity
 // SPDX-License-Identifier: MIT
